@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+    </head>
+    <body onload="pageLoadFirstTime()">
+        <form name ="frm1" class = "userform" >
+                <div>
+                    <label>Username</label> <br>
+                    <input type="text" name = "Username1" id = "Username">
+                </div><br>
+                <div>
+                        <label>Password</label><br>
+                         <input type="password" name = "password" id = "password">
+                </div><br>
+                <div>
+                    <label>Email </label> <br>
+                    <input type="text" name = "email" id = "E-mail">
+                </div><br>
+                <div>
+                    <label>Contact </label><br> 
+                    <input type="text" name = "contact" id = "contact">
+                </div><br>  
+                <div id = "genderDv">
+                        <label>Gender</label><br>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                </div><br>
+        </form>
+        <input type="button" id="submitbtn" value="submit">
+       <br><br>
+        <table id="tblDetail" border="1px solid black">
+            
+        </table>
+       
+        <script src="local_storage_form.js"></script>
+    </body>
+</html>
